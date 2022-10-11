@@ -1,0 +1,14 @@
+{
+  "name": "fusion-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fusion-cli": "^2.35.0",
+    "fusion-core": "^2.7.0",
+    "fusion-react": "^4.6.0",
+    "fusion-tokens": "^2.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
