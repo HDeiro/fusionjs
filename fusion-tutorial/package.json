@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "fusion dev"
+  },
   "dependencies": {
     "fusion-cli": "^2.35.0",
     "fusion-core": "^2.7.0",
