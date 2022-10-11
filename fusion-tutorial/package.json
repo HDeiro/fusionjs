@@ -12,6 +12,7 @@
     "fusion-plugin-react-helmet-async": "^2.5.0",
     "fusion-react": "^4.6.0",
     "fusion-tokens": "^2.2.9",
+    "isomorphic-fetch": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
