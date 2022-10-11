@@ -8,6 +8,7 @@ export default async function start() {
   app.register(HelmetPlugin);
   
   if (__NODE__) {
+    app.middleware(require('koa-bodyparser')());
     app.middleware(TodosPlugin);
   }
 

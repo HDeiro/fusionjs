@@ -19,6 +19,13 @@ const Root = () => {
         ...todos,
         inputText
       ]);
+      fetch('/api/todos', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({value: inputText}),
+      });
     }
   };
 
@@ -79,7 +86,7 @@ const Root = () => {
           type="text"
         />
         {todos.map(todo => (
-          <div className="todo">
+          <div className="todo" key={todo}>
             <div className="todo-text">{todo}</div>
           </div>
         ))}
